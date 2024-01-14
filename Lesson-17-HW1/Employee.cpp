@@ -76,7 +76,7 @@ void Employee::setEducation(string _education)
 
 void Employee::showEmployee() const
 {
-    cout << "|-------------------------------|\n\n";
+    cout << "|-------------------------------|\n";
     cout << "| Фамилия: " << surname << endl;
     cout << "| Год рождения: " << birth_year << endl;
     cout << "| Должность: " << position << endl;
