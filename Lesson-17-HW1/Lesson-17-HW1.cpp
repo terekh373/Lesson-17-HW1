@@ -18,4 +18,16 @@ void main()
 	{
 		arr[i].showEmployee();
 	}
+
+	cout << "Работники старше 60 лет:\n";
+	int counter = 0;
+	for (int i = 0; i < arr.size(); i++)
+	{
+		if (2024 - arr[i].getBirthYear() > 60)
+		{
+			counter++;
+			arr[i].showEmployee();
+		}
+	}
+	cout << "Всего " << counter << " работников старше 60 лет.";
 }
